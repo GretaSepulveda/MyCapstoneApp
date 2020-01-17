@@ -1,0 +1,27 @@
+{
+  "name": "mycapstoneapp",
+  "version": "1.0.0",
+  "description": "Bahia de Banderas App",
+  "main": "PlayayRestaurantes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": nodemon server/server.js",
+    "fullstack": "concurrently --kill-others \"react-scripts start\" \"nodemon server/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaGretaSepulveda/MyCapstoneApp.git"
+  },
+  "keywords": [
+    "vallarta",
+    "app"
+  ],
+  "author": "Greta Sepulveda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaGretaSepulveda/MyCapstoneApp/issues"
+
+  },
+  "homepage": "./",
+  "proxy": "http://localhost:5000"
+}
